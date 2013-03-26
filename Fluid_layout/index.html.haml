@@ -1,0 +1,24 @@
+.row-fluid
+  .span3
+    .well.sidebar-nav
+      %ul.nav.nav-list
+        %li.nav-header Sidebar
+        %li.active= link_to "Link", "#"
+        %li= link_to "Link", "#"
+        - ( rand(3) + 4 ).times do
+          %li.nav-header Sidebar
+          - (rand(7) + 1 ).times do
+            %li= link_to lorem_words( rand(2)+1 ), "#"
+
+  .span9
+    .hero-unit
+      %h1= zh_lorem_words 3
+      %p= zh_lorem_paragraph
+      %p= link_to "Learn more", "#", :class => "btn btn-primary btn-large"
+    - 3.times do
+      .row-fluid
+        - 3.times do
+          .span4
+            %h2= lorem_words 2
+            %p= lorem_paragraph
+            %p= link_to "View details", "#", :class => "btn"

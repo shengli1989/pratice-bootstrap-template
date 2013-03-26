@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %title This is pratice3 !!
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+    = stylesheet_link_tag "styles"
+
+  %body
+    = render "nav"
+    .container-fluid
+      = yield
+      %hr/
+      = render "footer"
+
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"
+    = livereload_js

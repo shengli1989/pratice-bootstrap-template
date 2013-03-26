@@ -1,0 +1,14 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container-fluid
+      %a{ :type => "button", :class => "btn btn-navbar", "data-toggle" =>"collapse", "data-target" => ".nav-collapse"}
+        - 3.times do
+          %span.icon-bar
+      =link_to "Project name", "#", :class => "brand"
+      .nav-collapse.collapse
+        %p.navbar-text.pull-right
+          =link_to "Log in", "#", :class => "navbar-link"
+        %ul.nav
+          %li.active= link_to "Home", "#"
+          %li= link_to "About", "#about"
+          %li= link_to "Contact", "#contact"
