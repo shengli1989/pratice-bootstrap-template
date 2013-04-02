@@ -1,0 +1,20 @@
+%footer
+  .container
+    .row
+      .span2
+        %h4
+          %i.icon-star.icon-white
+          Products
+        .divider
+        %nav
+          %ul.quick-links
+            %li= link_to lorem_words(2), "#"
+            %li= link_to lorem_words(2), "#"
+            %li= link_to lorem_words(2), "#"
+  .container
+    %p.pull-left &copy; 2013 Bootbusiness, test
+    .navbar
+      .navbar-inner
+        %ul.nav.pull-right
+          - 5.times do
+            %li= link_to lorem_word, "#"

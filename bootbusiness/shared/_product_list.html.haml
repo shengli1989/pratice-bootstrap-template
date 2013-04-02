@@ -1,0 +1,14 @@
+
+.row-fluid
+  %ul.thumbnails
+    - @product_list_num.times do
+      %li{ :class => "span#{ @product_list_size_col }" }
+        .thumbnail
+          = image_tag lorem_image( "360x200" ), :class => "product name"
+          .caption
+            %h3= lorem_words( rand(2) + 2 )
+            %p= lorem_sentence
+          .widget-footer
+            %p
+              = link_to "Buy now", "#", :class => "btn btn-primary"
+              = link_to "Read more", "#", :class => "btn"

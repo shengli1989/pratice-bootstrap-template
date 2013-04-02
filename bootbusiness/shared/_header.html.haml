@@ -1,0 +1,25 @@
+%header
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        = link_to "TEST", "/", :class => "brand brand-bootbus"
+        %button.btn.btn-navbar{ :type => "button", "data-toggle" => "collapse", "data-target" => ".nav-collapse" }
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        .nav-collapse.collapse
+          %ul.nav.pull-right
+            %li.dropdown
+              %a{ :href => "#", :class => "dropdown-toggle", "data-toggle" => "dropdown" }
+                Dropdon
+                %b.caret
+              %ul.dropdown-menu
+                %li.nav-header Products
+                %li= link_to "product", "#"
+                %li= link_to "product", "#"
+                %li.divider
+                %li= link_to "product", "#"
+            %li= link_to "Product", "/product"
+            - 4.times do
+              %li= link_to lorem_word, "#"
+

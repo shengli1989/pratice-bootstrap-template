@@ -1,0 +1,18 @@
+!!! 5
+%html
+  %head
+    %title This is pratice bootstrap template !!
+    %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+    = stylesheet_link_tag "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css"
+    = stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css"
+    = stylesheet_link_tag "styles"
+
+  %body
+    = render "/shared/header"
+
+    = yield
+
+    = render "/shared/footer"
+
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js", "boot-business"
+    = livereload_js

@@ -1,0 +1,431 @@
+/* line 1, ../sass/_override.scss */
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 6, ../sass/_override.scss */
+.navbar-inner, footer {
+  border: none;
+  padding: 15px 0;
+  background: url("../img/header-footer.png");
+}
+
+/* line 11, ../sass/_override.scss */
+.navbar .brand-bootbus {
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/_override.scss */
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+/* line 22, ../sass/_override.scss */
+.navbar .nav > li > a {
+  text-shadow: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 32, ../sass/_override.scss */
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  color: white !important;
+  background: #2e3436 !important;
+}
+
+/* line 38, ../sass/_override.scss */
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  background: #2E3436;
+}
+
+/* End : Override Bootstrap navigation */
+/* Start : Override Bootstrap hero unit */
+/* line 44, ../sass/_override.scss */
+.hero-unit {
+  background: none;
+  padding: 0 60px 0 60px;
+  margin: 0;
+}
+
+/* line 49, ../sass/_override.scss */
+.hero-unit h1 {
+  margin: 10px 0 10px 0;
+}
+
+/* End : Override Bootstrap hero unit */
+/* Start : Override Bootstrap carousel */
+/* line 55, ../sass/_override.scss */
+.carousel-control {
+  border: none;
+}
+
+/* line 58, ../sass/_override.scss */
+.left {
+  left: 0;
+}
+
+/* line 61, ../sass/_override.scss */
+.right {
+  right: 0 !important;
+}
+
+/* End : Override Bootstrap carousel */
+/* Start: Override Bootstrap Accordian */
+/* line 69, ../sass/_override.scss */
+.accordion-group,
+.accordion-inner {
+  border: none;
+}
+
+/* End: Override Bootstrap Accordian */
+/* Start: Bootbusiness specific CSS */
+/* line 76, ../sass/_override.scss */
+.content {
+  padding: 30px 0;
+  background: url("../img/content.png");
+}
+
+/* line 80, ../sass/_override.scss */
+.thumbnail img {
+  width: 100%;
+}
+
+/* line 83, ../sass/_override.scss */
+.active-link {
+  background-color: #2E3436;
+}
+
+/* line 86, ../sass/_override.scss */
+.page-header {
+  margin: 0 0 30px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 90, ../sass/_override.scss */
+.slider {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 93, ../sass/_override.scss */
+.widget-header {
+  border: 1px solid #dddddd;
+  padding: 20px 5px;
+  text-align: center;
+  margin: 0;
+  border-bottom: 0;
+  background-color: #EEEEEC;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 104, ../sass/_override.scss */
+.widget-body {
+  font-size: 16px;
+  padding: 30px 0 20px 0;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 112, ../sass/_override.scss */
+.widget-footer {
+  padding: 6%;
+  background-color: #EEEEEC;
+  border-top: 1px solid #dddddd;
+}
+
+/* line 117, ../sass/_override.scss */
+.widget-footer p {
+  margin: 0;
+}
+
+/* line 120, ../sass/_override.scss */
+.features {
+  margin-top: 10px;
+  list-style: none;
+}
+
+/* line 124, ../sass/_override.scss */
+.features > li {
+  line-height: 30px;
+}
+
+/* line 127, ../sass/_override.scss */
+.features > li > i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* line 131, ../sass/_override.scss */
+.center-align {
+  text-align: center;
+}
+
+/* line 134, ../sass/_override.scss */
+.product-snap {
+  display: inline;
+}
+
+/* line 137, ../sass/_override.scss */
+.article {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+/* line 141, ../sass/_override.scss */
+.team-member-description {
+  padding-top: 60px;
+}
+
+/* line 144, ../sass/_override.scss */
+.bottom-space {
+  margin-bottom: 30px;
+}
+
+/* line 147, ../sass/_override.scss */
+.bottom-space-less {
+  margin-bottom: 10px;
+}
+
+/* line 150, ../sass/_override.scss */
+.post-row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 154, ../sass/_override.scss */
+.sidebar {
+  padding: 20px 0;
+}
+
+/* line 157, ../sass/_override.scss */
+.circle {
+  width: 75px;
+  height: 75px;
+  background-color: #2E3436;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+
+/* line 168, ../sass/_override.scss */
+.event-date {
+  padding-top: 13px;
+  display: block;
+  line-height: 25px;
+}
+
+/* line 173, ../sass/_override.scss */
+.counter {
+  display: block;
+  padding-top: 25px;
+}
+
+/* line 177, ../sass/_override.scss */
+.signin-with-list {
+  list-style: none;
+}
+
+/* line 180, ../sass/_override.scss */
+.signin-with-list > li {
+  margin-top: 20px;
+}
+
+/* line 183, ../sass/_override.scss */
+.signin-with-list > li > a {
+  color: white;
+  padding: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 189, ../sass/_override.scss */
+.btn-facebook {
+  background: #3679EA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 195, ../sass/_override.scss */
+.btn-twitter {
+  background: #53cbe9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 201, ../sass/_override.scss */
+.btn-google {
+  background: #7288de;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 207, ../sass/_override.scss */
+.btn-github {
+  background: #2E3436;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 214, ../sass/_override.scss */
+.btn-facebook:hover, .btn-twitter:hover,
+.btn-google:hover, .btn-github:hover {
+  text-decoration: none;
+}
+
+/* line 218, ../sass/_override.scss */
+.form-signin-signup input[type="text"],
+.form-signin-signup input[type="password"] {
+  width: 70%;
+  height: 30px;
+}
+
+/* line 222, ../sass/_override.scss */
+.form-signin-signup input {
+  margin-bottom: 15px;
+}
+
+/* line 225, ../sass/_override.scss */
+.remember-me {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* line 229, ../sass/_override.scss */
+.remember-me a {
+  font-size: 15px;
+}
+
+/* line 233, ../sass/_override.scss */
+.contact-mail,
+.contact-mail:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 238, ../sass/_override.scss */
+.form-contact-us input[type="text"],
+.form-contact-us textarea {
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+/* line 242, ../sass/_override.scss */
+.form-contact-us input[type="text"] {
+  height: 25px;
+}
+
+/* line 245, ../sass/_override.scss */
+.form-contact-us textarea {
+  height: 100px;
+}
+
+/* line 248, ../sass/_override.scss */
+footer {
+  color: white;
+  padding: 0 20px;
+}
+/* line 251, ../sass/_override.scss */
+footer p {
+  padding-top: 30px;
+}
+@media (max-width: 768px) {
+  /* line 248, ../sass/_override.scss */
+  footer {
+    margin: 0 -20px;
+  }
+}
+
+/* line 258, ../sass/_override.scss */
+.quick-links {
+  list-style: none;
+}
+
+/* line 261, ../sass/_override.scss */
+.quick-links > li {
+  line-height: 30px;
+}
+
+/* line 264, ../sass/_override.scss */
+.quick-links > li > a {
+  color: white;
+}
+
+/* line 267, ../sass/_override.scss */
+.social-icons-row {
+  margin-top: 50px;
+}
+
+/* line 270, ../sass/_override.scss */
+.social-icons-row > a {
+  color: white;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+/* line 276, ../sass/_override.scss */
+.social-icons-row > a:hover,
+.social-icons-row > a:focus {
+  color: orange;
+  text-decoration: none;
+}
+
+/* line 280, ../sass/_override.scss */
+.phone-number {
+  margin-left: 25px;
+}
+
+/* line 283, ../sass/_override.scss */
+.footer-divider {
+  border-top: 0;
+  border-bottom: 1px solid #333333;
+}
+
+/* End: Bootbusiness specific CSS */
+/* Start: Responsive CSS section */
+@media (max-width: 979px) {
+  /* line 291, ../sass/_override.scss */
+  .nav-collapse .dropdown-menu a {
+    color: white;
+  }
+
+  /* line 294, ../sass/_override.scss */
+  .nav-collapse .dropdown-menu a:hover {
+    background-color: #2E3436;
+  }
+
+  /* line 298, ../sass/_override.scss */
+  .nav-collapse .nav-header,
+  .nav-collapse .dropdown-submenu > a {
+    display: none;
+  }
+}
+@media (min-width: 980px) {
+  /* line 303, ../sass/_override.scss */
+  body {
+    padding-top: 70px;
+  }
+}
+/* End : Responsive CSS section */

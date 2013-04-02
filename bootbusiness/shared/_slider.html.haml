@@ -1,0 +1,23 @@
+.slider
+  .container-fluid
+    #heroSlider.carousel.slide
+      .carousel-inner
+        .item.active
+          .hero-unit
+            .row-fluid
+              .span7.marketting-info
+                %h1= lorem_words(4)
+                %p= lorem_paragraph
+                %h3= link_to "Test to", "#", :class => "btn"
+              .span5= image_tag "/img/placeholder.jpg", :class => "thumbnail"
+        - 3.times do |i|
+          .item
+            .hero-unit
+              .row-fluid
+                .span7.marketting-info
+                  %h1= "#{i}"+lorem_words(4)
+                  %p= lorem_paragraph
+                  %h3= link_to "Test to", "#", :class => "btn"
+                .span5= image_tag "/img/placeholder.jpg", :class => "thumbnail"
+      %a{ :href => "#heroSlider", "data-slide" => "prev", :class => "left carousel-control" } ‹
+      %a{ :href => "#heroSlider", "data-slide" => "next", :class => "right carousel-control" } ›
